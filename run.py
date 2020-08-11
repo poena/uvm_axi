@@ -16,7 +16,7 @@ re_IUS_WARNING  = re.compile("^irun:\s+\*W\,"             ,re.M)
 class IUSAXIBase(unittest.TestCase):
 
     def setUp(self):
-        os.chdir('/user/seanchen/project/uvm_axi')
+        os.chdir('./')
         self.m_demo_home    = os.getcwd()
         self.m_tb_home      = None
         self.m_tb_name      = None
